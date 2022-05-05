@@ -1,0 +1,15 @@
+v e v -> v 
+v e f -> f 
+f e ? -> f 
+
+v ou ? -> v 
+f ou v -> v 
+f ou f -> f (tem que ter um verdadeiro) 
+
+v xor v -> f(tem que ser diferente para dar verdadeiro) 
+v xor f -> v( ou exclusivo)
+f xor v -> v
+f xor f -> f
+
+!v -> f (negação lógica)
+!f -> v
