@@ -1,9 +1,9 @@
 const imprimirRsultado = function(nota){
     switch (Math.floor(nota)){
-        case 10: //posso deixar um case vazio
+        case 10: //posso deixar um case vazio, assim ele entender que ele vai executar a tarefa de baixo
         case 9: // se for 10 ou 9 vai ser essa mensagem  
             console.log('Quadro de Honra')
-            break
+            break // a palavra reservada break é necessaria
         case 8: case 7:
             console.log('Aprovado')
             break
@@ -17,8 +17,10 @@ const imprimirRsultado = function(nota){
             console.log('Nota Invalida')
 
     }
+ 
     console.log('Fim!')
 }
+
 
 imprimirRsultado(10)
 imprimirRsultado(7)
