@@ -1,6 +1,8 @@
 function soBoaNoticia(nota) {
     if(nota >= 7) {
         console.log('Aprovado com ' + nota)
+    }else{
+        console.log("reprovou rapai")
     }
 }
 
@@ -10,7 +12,7 @@ soBoaNoticia(6.9);
 function seForVerdadeEuFalo(valor) {
     if(valor) {
         console.log('É verdade... ' + valor)
-    }
+    }//vai retornar só setenças com true
 }
 
 seForVerdadeEuFalo();

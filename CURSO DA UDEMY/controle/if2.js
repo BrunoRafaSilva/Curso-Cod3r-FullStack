@@ -1,9 +1,9 @@
 function teste1(num) {
-    if(num > 7)
+    if(num >= 7)
         console.log(num)
         console.log('Final')
     
-    
+    //esse caso o codigo nao roda certo
 }
 
 teste1(6);
