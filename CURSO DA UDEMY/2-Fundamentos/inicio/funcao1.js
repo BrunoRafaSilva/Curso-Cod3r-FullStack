@@ -10,7 +10,7 @@ imprimirSoma();
 
 
 //funcao com retorno
-function soma(a,b = 0){  //foi definido um valor padrão para b
+function soma(a,b = 1){  //foi definido um valor padrão para b
     return a + b
 };
 

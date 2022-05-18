@@ -10,4 +10,3 @@ funcs[0]();
 funcs[2]();
 funcs[8]();
 console.log(funcs[8]);
-funcs();

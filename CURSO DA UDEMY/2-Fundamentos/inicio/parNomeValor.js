@@ -3,11 +3,11 @@ const saudacao = 'opa'; // contexto léxico 1
 
 function exec()  {
     const saudacao = 'ixi maria' // contexto léxico 2
-    return saudacao
+    return saudacao// o local onde ela se encontra define o contexto da função
 }
 
 
-//objetos são grupos aninhados
+//objetos são grupos aninhados de pares nome/valor
 const cliente = {
     nome: 'Pedro',
     idade: 32,
