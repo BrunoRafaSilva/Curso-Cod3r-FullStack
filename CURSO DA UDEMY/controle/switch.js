@@ -12,10 +12,10 @@ const imprimirRsultado = function(nota){
             break
         case 3: case 2: case 1: case 0: 
             console.log('Reprovado')
-            break
+            break// o break é uma palavra para saida
         default:
             console.log('Nota Invalida')
-
+        // aqui é se nao for nenhum acima
     }
  
     console.log('Fim!')
