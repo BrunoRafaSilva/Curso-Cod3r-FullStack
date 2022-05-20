@@ -2,7 +2,8 @@ function soma() {
     let soma = 0
     for (i in arguments) {
         soma += arguments[i]
-    }
+        //arguments é um array interno de uma função que armazena todos os argumentos passados à função
+    }//toda função tem esse argument disponivel
     return soma
 }
 

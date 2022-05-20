@@ -1,7 +1,7 @@
 // Função em JS é First-Class Object (Citizens)
 // Higher-order function
 
-// criar de forma literal 
+// criar função de forma literal 
 function fun1() { }
 
 //armazenar em uma variável
@@ -18,7 +18,7 @@ console.log(obj.falar())
 
 //Passar função como parametros
 function run(fun) {
-    fun()
+    fun() //  aqui ela está sendo invocada
 }
 
 run(function() { console.log('Executando...')})
@@ -29,7 +29,8 @@ function soma(a, b) {
         console.log(a + b + c)
     }
 }
-
+//função retornando uma função
 soma(2,3)(4)
 const cincoMais = soma(2,3)
-cincoMais(4)
+cincoMais(4)// a constante variavel 
+//continuou a chamada da função

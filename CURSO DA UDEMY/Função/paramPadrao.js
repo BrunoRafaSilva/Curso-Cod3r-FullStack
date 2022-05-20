@@ -11,9 +11,9 @@ console.log(soma1(), soma1(3), soma1(1, 2, 3), soma1(0, 0, 0))
 
 //estrategia 2, 3 e 4 para gerar valor padrão
 function soma2(a, b, c){
-    a = a !== undefined ? a : 1
+    a = a !== undefined ? a : 1 // isso vai virar se o valor dentro de !a for diferente de false, pegue ou valor dele ou pegue 1
     b = 1 in arguments ? b : 1
-    c = isNaN(c) ? 1 : c
+    c = isNaN(c) ? 1 : c // se nao for um numero ele pega 1 ou pega c se for valor númerico
     return a + b + c
 }
 
