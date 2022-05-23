@@ -3,9 +3,9 @@ function Pessoa() {
     
     const self = this
     setInterval(function() {
-        self.idade++
+        self.idade++ //this.idade++
         console.log(self.idade)
-    }/*.bind(this) se ao inves de self tiver this*/, 1000)
+    }/*.bind(this) se ao inves de self tiver this no self.idade*/, 1000)
 }
 
 new Pessoa

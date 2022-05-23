@@ -6,7 +6,7 @@ dobro = (a) => {
     return 2 * a 
 }
 
-dobro = a => 2 * a // return implícito
+dobro = a => 2 * a // return implícito/função que faz apenas uma ação 
 console.log(dobro(Math.PI))
 
 let ola = function () {
