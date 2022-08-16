@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="formulario">
+        <div class="dados">
+            <fieldset>
+                <legend>DADOS PESSOAIS</legend>
+                <label>Nome:</label>
+                <input type="text" name="nome" width="10" placeholder="Nome completo" required value>
+                <label>Idade:</label>
+                <input type="number" class="idade" required value>
+                <label>Data de nascimento:</label>
+                <input type="date" required value>
+                <label>CPF ou CNPJ:</label>
+                <input type="text" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"
+                    class="cpf" required minlength="11" maxlength="18">
+            </fieldset>
+        </div>
+        <br>
+
+        <div class="seguranca">
+            <fieldset class="idade">
+                <legend>SEGURANÇA</legend>
+                <label>Senha:</label>
+                <div id="input">
+                    <input type="password" class="senha" minlength="8" maxlength="22" required>
+                    <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <style type="text/css">
+        #formulario {
+            margin-left: auto;
+            margin-right: auto;
+            margin-block-end: auto;
+            border: auto;
+            margin: auto;
+
+        }
+
+        #dados{
+            position-rel
+        }
+
+        #formulario input.idade {
+            max-width: 30px;
+        }
+
+        #formulario input.cpf {
+            max-width: 122px;
+        }
+
+        label {
+            margin-left: 2px;
+        }
+
+        #input>* {
+            height: 1.3em;
+            float: left;
+        }
+
+        #input img {
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        var input = document.querySelector('#input input');
+        var img = document.querySelector('#input img');
+        img.addEventListener('click', function () {
+            input.type = input.type == 'text' ? 'password' : 'text';
+        });
+
+    </script>
+</body>
+
+</html>
