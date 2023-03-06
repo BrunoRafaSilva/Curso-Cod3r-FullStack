@@ -1,3 +1,0 @@
-// CÓDIGO NÃO EXECUTÁVEL!!!!
-
-//Procedural
