@@ -13,6 +13,6 @@
   "author": "BrunoSilva",
   "license": "ISC",
   "devDependencies": {
-    "axios": "0.17.1"
+    "axios": "^1.4.0"
   }
 }
