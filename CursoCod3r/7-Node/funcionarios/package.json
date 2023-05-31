@@ -2,8 +2,11 @@
   "name": "funcionarios",
   "version": "1.0.0",
   "description": "aula Node",
-  "main": "outro.js",
+  "main": "funcionarios.js",
   "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "teste": "que coisa",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
