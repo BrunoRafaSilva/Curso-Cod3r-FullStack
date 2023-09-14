@@ -54,6 +54,26 @@
         /* ==================== */
         /* Solução com Flex Box */
         /* ==================== */
+        .cabecalho{
+            display: flex;
+            align-items: center;/* alinha tudo no meio da div */
+            justify-content: space-between; /* espaçado entre os itens*/
+
+        }
+
+        .menu{
+            flex-grow: 10;/* o quanto o menu vai crescer */
+        }
+
+        .menu ul{
+            display: flex;
+            /*justify-content: space-around;*//*irá fazer com que os itens do menu preencham toda a extensão da div*/
+        }
+
+        .menu li{
+            margin: 0px 10px;/*0 vertical e 10 horizontal*/
+        }
+
     </style>
 </head>
 
